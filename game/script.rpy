@@ -1,6 +1,4 @@
-$ git remote add origin:https://github.com/robosenpai/A-Simple-Gesture
-
-
+$ git remote add origin https://github.com/robosenpai/A-Simple-Gesture.git
 
 
 ﻿# The script of the game goes in this file.
