@@ -41,17 +41,17 @@ label start:
 
     show yu apathetic
 
-    "[[PLACEHOLDER]"
+    "[[STREET PLACEHOLDER]"
 
-menu:
-    "I see a boy walking past me...."
+    menu:
+        "I see a boy walking past me...."
 
-    "and I smile at him":
-        $ smile = True;
-        jump letter
+        "and I smile at him":
+            $ smile = True;
+            jump letter
 
-    "and I quickly walk past":
-        jump letter
+        "and I quickly walk past":
+            jump letter
 
 
 
@@ -60,6 +60,43 @@ label letter:
     scene letter
 
     "[[LETTER PLACEHOLDER]"
-    # This ends the game.
 
-    return
+label bedroom:
+
+    "[[BEDROOM PLACEHOLDER]"
+
+
+label bathroom:
+    "[[BATHROOM PLACEHOLDER]"
+
+
+label class:
+    "[[CLASS PLACEHOLDER]"
+
+
+#### BACKSTORY SECTION ####
+
+label backstory:
+    "[[BACKSTORY PLACEHOLDER]"
+
+
+    if smile:
+        jump goodend
+
+
+
+
+#### ENDING ####
+
+label badend:
+    "[[BADEND]"
+
+
+
+return
+
+
+label goodend:
+    "[[GOODEND]"
+
+return
