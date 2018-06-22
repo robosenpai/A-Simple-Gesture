@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 2: expected statement.
-    ﻿
-     ^
+File "game/script.rpy", line 52: choice menuitem expects a non-empty block.
+    "and I quickly walk past":
+                              ^
 
 Ren'Py Version: Ren'Py 7.0.0.196
-Thu Jun 21 20:59:50 2018
+Thu Jun 21 23:48:50 2018

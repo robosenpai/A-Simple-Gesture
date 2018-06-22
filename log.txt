@@ -1,4 +1,4 @@
-Thu Jun 21 21:09:15 2018
+Thu Jun 21 23:51:46 2018
 Windows-8-6.2.9200
 Ren'Py 7.0.0.196
  
@@ -6,17 +6,17 @@ Ren'Py 7.0.0.196
 Bootstrap to the start of init.init took 0.05s
 Early init took 0.00s
 Loader init took 0.01s
-Loading error handling took 0.03s
-Loading script took 0.62s
-Loading save slot metadata. took 0.00s
+Loading error handling took 0.01s
+Loading script took 0.08s
+Loading save slot metadata. took 0.01s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.07s
+Running init code took 0.05s
 Loading analysis data took 0.02s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\Senpai\\AppData\\Roaming/RenPy/backups\\A Simple Gesture':
-Dump and make backups. took 0.04s
+Dump and make backups. took 0.05s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.01s
@@ -27,10 +27,10 @@ Init translation took 0.01s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.01s
-Save screen analysis took 0.04s
-Prepare screens took 0.03s
+Save screen analysis took 0.05s
+Prepare screens took 0.04s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.04s
+Save bytecode. took 0.05s
 Running _start took 0.00s
 Performance test:
 Interface start took 0.01s
@@ -434,7 +434,18 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
-Total time until interface ready: 1.41500020027s
+Total time until interface ready: 0.870000123978s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
-- Fr
+- Frame drawn at 0.017667 seconds.
+- Frame drawn at 0.017667 seconds.
+- Frame drawn at 0.024667 seconds.
+- Frame drawn at 0.042667 seconds.
+- 0.042667 seconds to render 5 frames.
+Cleaning stores took 0.00s
+Init translation took 0.08s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s

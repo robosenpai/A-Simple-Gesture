@@ -1,25 +1,65 @@
+##### CHANGELOG #####
+#6/21/18 RS - just started the structure and put in a bunch of placeholders
+
+
+
+
+
+
+
+
 
 # The script of the game goes in this file.
 
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
-
-define m = Character("Miyuki")
-define y = Character("Yu")
 
 
+### Placeholder for all of the images ###
+### bg should be jpg and characters should be png
+#image bg street = 'street.jpg'
+#image bg bedroom = 'bedroom.jpg'
+#image bg bathroom = 'bathroom.jpg'
+#image bg bathroomMask = 'bathroomMask.jpg'
+#image bg bathroomMaskCracked = 'bathroomMaskCracked.jpg'
+#image yu apathetic ='yuApathetic.png'
+#image yu
+#image letter
+#
+
+# Character Declarations
+define m = Character("Miyuki")  #Childhood Friend
+define y = Character("Yu")      #MC
+define s = Character("stranger")#Player
+
+default smile = False
 # The game starts here.
 
 label start:
 
-    scene bg room
 
-    show eileen happy
 
-    m "You've created a new Ren'Py game."
+    scene bg street
 
-    m "Once you add a story, pictures, and music, you can release it to the world!"
+    show yu apathetic
 
+    "[[PLACEHOLDER]"
+
+menu:
+    "I see a boy walking past me...."
+
+    "and I smile at him":
+        $ smile = True;
+        jump letter
+
+    "and I quickly walk past":
+        jump letter
+
+
+
+label letter:
+
+    scene letter
+
+    "[[LETTER PLACEHOLDER]"
     # This ends the game.
 
     return
